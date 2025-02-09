@@ -47,8 +47,6 @@ nav ul li a {
 nav ul li a:hover {
     color: #1E90FF; 
 }
-
-
 #about {
     padding: 4rem 2rem;
     background-color: #FFFFFF; 
@@ -105,7 +103,6 @@ nav ul li a:hover {
     transform: translateY(-10px); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
-
 
 #projects {
     padding: 4rem 2rem;
