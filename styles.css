@@ -1,0 +1,228 @@
+#first{
+    text-align: center;
+    color: black;
+    background-color:cornflowerblue;
+    font-size:x-large
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; 
+    color: #333; 
+}
+nav {
+    background: #2D3E50; 
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+   
+}
+
+nav ul li a:hover {
+    color: #1E90FF; 
+}
+
+
+#about {
+    padding: 4rem 2rem;
+    background-color: #FFFFFF; 
+}
+
+#about .about-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+#about .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px; 
+    margin-right: 20px;
+}
+
+#about p {
+    max-width: 700px;
+    font-size: 1.1rem;
+    color: #555; 
+}
+#skills {
+    padding: 4rem 2rem;
+    background-color: #F2F2F2; 
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #2D3E50;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 1rem;
+}
+
+#skills li {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+#skills li:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+#projects {
+    padding: 4rem 2rem;
+    background-color: #FFFFFF;
+}
+
+#projects .project {
+    background-color: #F9F9F9;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#projects .project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#projects h3 {
+    color: #2D3E50;
+}
+
+#projects p {
+    color: #555;
+}
+
+#certificates {
+    padding: 4rem 2rem;
+    background-color: #F2F2F2;
+}
+
+.certificate-upload label {
+    font-size: 1.1rem;
+    color: #2D3E50;
+}
+
+.certificate-upload input {
+    margin-top: 10px;
+    padding: 0.5rem;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.certificate-upload input:hover {
+    background-color: #1C76D2; 
+}
+
+.certificates-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 1rem;
+}
+
+.certificates-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.certificates-list ul li {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.certificates-list ul li:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.certificates-list ul li a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+.certificates-list ul li a:hover {
+    text-decoration: underline;
+}
+
+#dream {
+    padding: 4rem 2rem;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#dream p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#contact {
+    padding: 4rem 2rem;
+    background-color: #2D3E50; 
+    color: white;
+    text-align: center;
+}
+
+#contact a {
+    color: #1E90FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+}
